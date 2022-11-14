@@ -38,7 +38,8 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 <ul>blog.honeynet.org.my/favicon.ico</ul>
 </p>
 
-![image](https://user-images.githubusercontent.com/43168046/201690499-037b8072-ff8f-41eb-93d7-f84453faf287.png)
+![image](https://user-images.githubusercontent.com/43168046/201691756-15ddff2a-ae4b-454f-96bd-b00b4396d5e4.png)
+
 
 
 
