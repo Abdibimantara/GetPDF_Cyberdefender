@@ -40,6 +40,18 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 
 ![image](https://user-images.githubusercontent.com/43168046/201691756-15ddff2a-ae4b-454f-96bd-b00b4396d5e4.png)
 
+<p>2. What is the URL which contains the JS code? </p>
+<p> answer : http://blog.honeynet.org.my/forensic_challenge/ </p>
+<p> Analisis :  Melalui tool wireshark, kami kembali melakukan beberapa analisis terkait req url yang dibuat oleh korban. Dari 6 url path tersebut kami mendapati bahwa korban melakukan req ke url path blog.honeynet.org.my/forensic_challenge/ dan mendapatkan response code 200 (ok). sehingga destinatisi tujuan pun menampilkan hasinya, dimana hasilnya berisi javasripct code yang ditandai dengan penggunaan tag <script>. </p>
+
+![image](https://user-images.githubusercontent.com/43168046/201835339-0fb5495c-32ed-408b-90c2-98ba3e080f1d.png)
+
+
+
+
+
+
+
 
 
 
