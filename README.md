@@ -72,9 +72,10 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 
 <p>7. What is the number of the 'object stream' that might contain malicious JS code? </p>
 <p> answer : 5 </p>
-<p> Analisis : Kembali menggunakan peepdf, kami mendapati bahwa jumlah object yang terindikasi memuat malicious javascript code adalah object sebanyak 5. Dimana object tersebut terdiri dari object 5, 7, 9, 10, 11.  </p>
+<p> Analisis : Disini kami kembali menggunakan tools peepdf. Melalui tools tersebut kami mendapati bahwa object nomer 5 teridindikasi sebagai malicious dengan ditandai masuk dalam kategori "object with js code". Kami pun mengekstrak object tersebut menggunakan peepdf, namun kami hanya menemukan sebuah script JS Code yang sulit dibaca. Menggunakan tools pdfstreamdumspter kami mencoba melakukan ekstraksi object tersebut, dan benar sajar kami mendapati bahwa object tersebut sebagai Exploit CVE-2009-1492 Date:5.12.09 v9.1 </p>
 
-![image](https://user-images.githubusercontent.com/43168046/201966874-9d6f8ad9-e8ac-471e-90ed-e08687bac55c.png)
+![image](https://user-images.githubusercontent.com/43168046/201973441-ea2ed9da-6f6b-4f0e-a81f-e5e2e70c5c77.png)
+
 
 
  
