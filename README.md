@@ -70,6 +70,11 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 
 ![image](https://user-images.githubusercontent.com/43168046/201928338-1217b51f-b9b4-4631-a693-3a93a1cefdb1.png)
 
+<p>7. What is the number of the 'object stream' that might contain malicious JS code? </p>
+<p> answer : 5 </p>
+<p> Analisis : Kembali menggunakan peepdf, kami mendapati bahwa jumlah object yang terindikasi memuat malicious javascript code adalah object sebanyak 5. Dimana object tersebut terdiri dari object 5, 7, 9, 10, 11.  </p>
+
+![image](https://user-images.githubusercontent.com/43168046/201966874-9d6f8ad9-e8ac-471e-90ed-e08687bac55c.png)
 
 
  
