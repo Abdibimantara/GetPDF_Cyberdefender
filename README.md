@@ -45,6 +45,14 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 <p> Analisis :  Melalui tool wireshark, kami kembali melakukan beberapa analisis terkait req url yang dibuat oleh korban. Dari 6 url path tersebut kami mendapati bahwa korban melakukan req ke url path blog.honeynet.org.my/forensic_challenge/ dan mendapatkan response code 200 (ok). sehingga destinatisi tujuan pun menampilkan hasinya, dimana hasilnya berisi javasripct code yang ditandai dengan penggunaan tag <script>. </p>
 
 ![image](https://user-images.githubusercontent.com/43168046/201835339-0fb5495c-32ed-408b-90c2-98ba3e080f1d.png)
+  
+<p>3. What is the URL hidden in the JS code? </p>
+<p> answer : http://blog.honeynet.org.my/forensic_challenge/getpdf.php </p>
+<p> Analisis :  Melalui tool wireshark, kami kembali melakukan beberapa analisis terkait req url yang dibuat oleh korban. Kami kembali menanalisi url sebelumnya yaitu "blog.honeynet.org.my/forensic_challenge/". Namun saat kami melakukan analyisi follow http stream, kami sedikit kebingan, lalu kami mengubah menjadi follow tcp stream, dan benar saja kami menemukan adanya indikasi url ynag terhubung dalam javascript code tersebut yang mengarah ke http://blog.honeynet.org.my/forensic_challenge/getpdf.php . </p>  
+
+![image](https://user-images.githubusercontent.com/43168046/201840354-560c764e-1291-49de-a032-e32a72c84c97.png)
+
+  
 
 
 
