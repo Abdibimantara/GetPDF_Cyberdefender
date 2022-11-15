@@ -68,8 +68,8 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 <p> answer : 4 </p>
 <p> Analisis : Untuk mengetahui beberapa filter yang digunakan pada object dalam file tersebut, kami menggunakan tools pdf-parser. Melalui tools pdf-parser kami kembali mengcek satu persatu dari semua object yang berjumlah 19. kami mengcek satu persatu, terdapat 4 pobject yang menggunakan filter, yaitu object 5, 7, 9, 10   </p>
 
+![image](https://user-images.githubusercontent.com/43168046/201928338-1217b51f-b9b4-4631-a693-3a93a1cefdb1.png)
 
-![image](https://user-images.githubusercontent.com/43168046/201928031-1ca10eee-029b-45e4-a45c-755472795f5d.png)
 
 
  
