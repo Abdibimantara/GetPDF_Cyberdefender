@@ -62,7 +62,17 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 <p> answer : 19 </p>
 <p> Analisis : Untuk mengetahui jumlah object yang terdapat dari file pdf tersebut, kami menggunakan bantuaan dari tools pdfid. melalui pdfid, kami dapat mengetahui struturk penyusund dari pdf tersebut. Jumlah object yang terdapat pada file tersebut adalah 19 </p> 
 
-![image](https://user-images.githubusercontent.com/43168046/201848539-70c6cb48-883a-4ae4-8c39-4a3f4724f149.png)
+![image](https://user-images.githubusercontent.com/43168046/201888181-4daffa18-3538-4b86-9854-4f31456306cc.png)
+
+<p>6. How many filtering schemes are used for the object streams? </p>
+<p> answer : 4 </p>
+<p> Analisis : Untuk mengetahui beberapa filter yang digunakan pada object dalam file tersebut, kami menggunakan tools pdf-parser. Melalui tools pdf-parser kami kembali mengcek satu persatu dari semua object yang berjumlah 19. kami mengcek satu persatu, terdapat 4 pobject yang menggunakan filter, yaitu object 5, 7, 9, 10   </p>
+
+
+![image](https://user-images.githubusercontent.com/43168046/201928031-1ca10eee-029b-45e4-a45c-755472795f5d.png)
+
+
+ 
 
 
 
