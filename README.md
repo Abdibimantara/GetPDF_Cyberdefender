@@ -58,6 +58,11 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 
 ![image](https://user-images.githubusercontent.com/43168046/201845989-03020149-748a-42b3-8858-457c491551e2.png)
 
+<p>5. How many object(s) are contained inside the PDF file? </p>
+<p> answer : 19 </p>
+<p> Analisis : Untuk mengetahui jumlah object yang terdapat dari file pdf tersebut, kami menggunakan bantuaan dari tools pdfid. melalui pdfid, kami dapat mengetahui struturk penyusund dari pdf tersebut. Jumlah object yang terdapat pada file tersebut adalah 19 </p> 
+
+![image](https://user-images.githubusercontent.com/43168046/201848539-70c6cb48-883a-4ae4-8c39-4a3f4724f149.png)
 
 
 
