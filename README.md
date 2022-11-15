@@ -52,7 +52,16 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 
 ![image](https://user-images.githubusercontent.com/43168046/201840354-560c764e-1291-49de-a032-e32a72c84c97.png)
 
-  
+<p>4. What is the MD5 hash of the PDF file contained in the packet? </p>
+<p> answer : 659cf4c6baa87b082227540047538c2a </p>
+<p> Analisis : Menggunakan menu filter yang tersedia pada wireshark, kami mencoba mengskpor object yang telah didownload sebelumnya oleh korban yang mengarah ke url  /forensic_challenge/fcexploit.pdf. Diketahui bahwa korban mendownload file berukuran 25 KB. Namun saat kami melakukan pengecekkan menggunakan file menggunakan linux, ouput ynag dikeluarkan bukanlah pdf, namun data, tentu saja ini mencurigakan. Menggunakan commandline yang tersedia di linux, kami berhasil mendapati hash md5 dari file tersebut. Kami memvalidasi menggunakan virus totals, dan benar file tersebut adalah malware.  </p> 
+
+![image](https://user-images.githubusercontent.com/43168046/201845989-03020149-748a-42b3-8858-457c491551e2.png)
+
+
+
+
+ 
 
 
 
