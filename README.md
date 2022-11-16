@@ -77,10 +77,11 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 ![image](https://user-images.githubusercontent.com/43168046/201973441-ea2ed9da-6f6b-4f0e-a81f-e5e2e70c5c77.png)
 
 <p>8. Analyzing the PDF file. What 'object-streams' contain the JS code responsible for executing the shellcodes? The JS code is divided into two streams. Format: two numbers separated with ','. Put the numbers in ascending order </p>
-<p> answer : 7,9  </p>
-<p> Analisis : Setelah mengerahui bahwa terdapat 5 object yang masuk dalam kategori "stream". Kami mencoba mencoba menganalisa setiap object tersebut, dan tepatnya pada object 5 kami mendapatkan hasil yang cukup memuaskan. Kami mendapat pentujuk unutk mempermudah kami dalam menganalisa setiap onjectnya. setelah kami mengikuti pentujuk yang didaptakan, kami mengidentifikasi bahwa object 7 dan 9 memuat suatu code java scirpt yang kemungkinan bertugas menjalankan shellcode. </p>
+<p> answer : c:\WINDOWS\system32\a.exe </p>
+<p> Analisis : setelah berhasil mendapat malicious jscode yang terdapat pada object 7 dan 9, kami melanjutkan menganalisa mengenai adanya kemungkinan shell code yang terdapat pada malicious object tersebut. Kami sepertinya menemukan shell code yang kami cari pada malicious jscode tersebut. kami pun membukanya dengan bantuan peepdf dan melakukan unescape yang berfungsi untuk menyaring kode atau varibel ynag tersembunyi tersebut. Setelah itu kami berhasil mendapatkan raw shellcodenya, lalu kami menjalankan shllecode tersebut menggunakan function sctest. dan kami mendapatkan informasi yang kami inginkan.  </p>
 
-![image](https://user-images.githubusercontent.com/43168046/201983244-756bd4c7-051f-42cc-be31-c772f2eade65.png)
+![image](https://user-images.githubusercontent.com/43168046/202204608-f7be6022-677a-43d6-bf39-7e20c7c92f3b.png)
+
 
 
  
