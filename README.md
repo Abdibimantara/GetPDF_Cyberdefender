@@ -88,6 +88,13 @@ Berdasarkan Aturan yang dijelaskan pada website cyberdefender, kita diharuskan u
 
 ![image](https://user-images.githubusercontent.com/43168046/202204608-f7be6022-677a-43d6-bf39-7e20c7c92f3b.png)
 
+<p>10. The PDF file contains another exploit related to CVE-2010-0188. What is the URL of the malicious executable that the shellcode associated with this exploit drop? </p>
+<p> answer : http://blog.honeynet.org.my/forensic_challenge/the_real_malware.exe </p>
+<p> Analisis : Untuk mengeahui another exploit yang terdapat selain dalam pdf tersebut, kami kembali menganalisi traffic pcap. Disini kami menemukan req url yang buat oleh korban dan megarah ke url path /forensic_challenge/the_real_malware.exe </p>
+
+![image](https://user-images.githubusercontent.com/43168046/202209013-9e57eafa-dad2-404c-9d8b-ce74380fb7e3.png)
+
+
 
 
  
